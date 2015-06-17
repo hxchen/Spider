@@ -5,8 +5,8 @@ var querystring = require('querystring');
 
 var url = "http://d.weibo.com/1087030002_892_1003_0?page=1"
 var data = {  
-	mobile: 'wayne030203001@163.com',
-	password_3347: '19870125',
+	mobile: '',
+	password_3347: '',
 	backURL:'http://weibo.cn/'
 };
 var content = querystring.stringify(data);  
